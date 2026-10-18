@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+}
+
+hr {
+    border-color: #8B5A2B;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.light {
+    border-color: #FFF;
+}
+
+a {
+    transition: all 0.35s;
+    color: #8B5A2B;
+}
+
+a:hover, a:focus {
+    color: #5c3a1a;
+}
+
+/* Destaque da Marca "Lena Crochê" no Menu Nav */
+.navbar-brand.brand-highlight {
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    color: #8B5A2B !important;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.bg-primary {
+    background-color: #8B5A2B;
+    color: white;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+/* Header / Capa */
+header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../img/header.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header-content {
+    position: relative;
+    text-align: center;
+    padding: 100px 15px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+header .header-content .header-content-inner h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.btn-primary {
+    background-color: #8B5A2B;
+    border-color: #8B5A2B;
+    color: white;
+    border-radius: 300px;
+}
+
+.btn-primary:hover {
+    background-color: #6d4520;
+}
+
+/* Galeria / Vitrine Reformulada (Especial para Mobile) */
+#portfolio {
+    padding: 40px 15px;
+}
+
+.portfolio-item-wrapper {
+    margin-bottom: 30px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.portfolio-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.35s ease;
+}
+
+.portfolio-box:hover img {
+    transform: scale(1.05);
+}
+
+/* Informações do Produto Fixas Abaixo da Imagem */
+.product-info {
+    padding: 18px 15px;
+    text-align: center;
+}
+
+.product-category {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #8B5A2B;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: 800;
+    color: #27ae60;
+}
